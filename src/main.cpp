@@ -24,13 +24,13 @@ const char *mqtt_server = "mqtts.heclouds.com"; // MQTT服务器地址
 
 const int mqtt_port = 1883; // MQTT服务器端口
 
-#define products_id "BAo3l3z1HC" // 产品ID
+#define products_id "你的产品ID" // 产品ID
 
-#define devices_id "780EG" // 设备ID
+#define devices_id "你的设备ID" // 设备ID
 
-#define token "version=2018-10-31&res=products%2FBAo3l3z1HC%2Fdevices%2F780EG&et=1751730650&method=md5&sign=r5eFh1msRQ29fmmAlBPcvw%3D%3D" // 设备token
+#define token " 你的token" // 设备token
 
-float gps = 30.0; // GPS坐标
+float gps = 30.0; // GPS坐标变量
 
 WiFiClient espClient;           // 创建一个WiFiClient对象
 PubSubClient client(espClient); // 创建一个PubSubClient对象
