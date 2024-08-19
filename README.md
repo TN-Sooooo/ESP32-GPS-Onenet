@@ -1,1 +1,1 @@
-这个一个ESP32连接OneNet的项目实例
+这是一个ESP32连接OneNet的项目实例
