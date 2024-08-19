@@ -3,5 +3,7 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
-include/id.h
+
+# 忽略 include 目录下的 id.h 文件  
+id.h
 
