@@ -6,6 +6,8 @@
 
 #include <Ticker.h> // 包含Ticker库
 
+#include <id.h> // 包含Ticker库
+
 #define LED 2                                                                                        // 定义LED引脚为2
 #define BUTTON 4                                                                                     // 定义按钮引脚为4
 #define ONENET_TOPIC_PROP_POST "$sys/" products_id "/" devices_id "/thing/property/post"             // 设备属性上报请求
@@ -24,13 +26,13 @@ const char *mqtt_server = "mqtts.heclouds.com"; // MQTT服务器地址
 
 const int mqtt_port = 1883; // MQTT服务器端口
 
-#define products_id "你的产品ID" // 产品ID
+#define products_id your_products_id // 产品ID
 
-#define devices_id "你的设备ID" // 设备ID
+#define devices_id your_evices_id // 设备ID
 
-#define token " 你的token" // 设备token
+#define token your_token // 设备token
 
-float gps = 30.0; // GPS坐标变量
+float gps = 30.0; // GPS坐标
 
 WiFiClient espClient;           // 创建一个WiFiClient对象
 PubSubClient client(espClient); // 创建一个PubSubClient对象
